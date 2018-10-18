@@ -1,0 +1,67 @@
+
+@-webkit-keyframes name {
+    from, to {
+        content: 'Son Joonyeong';
+    }
+    15% {
+        content: '손준영';
+    }
+    30% {
+        content: '孙俊荣';
+    }
+    45% {
+        content: '孫俊榮';
+    }
+    60% {
+        content: 'سونجون رونغ';
+    }
+    75% {
+        content: 'ソン　ズンヨン';
+    }
+}
+
+
+#name:before{
+    color: white;
+    content: '';
+    font-style: italic;
+    text-align: center;
+    -webkit-animation-name: name;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-filter: blur(0.8px);
+}
+
+@-webkit-keyframes subname {
+    from, to {
+        content: 'Freelance programmer';
+    }
+    15% {
+        content: 'UI Designer';
+    }
+    30% {
+        content: 'Web Designer';
+    }
+    45% {
+        content: 'Windows Clients developer';
+    }
+    60% {
+        content: 'SKKU Computer Science Student';
+    }
+    75% {
+        content: 'Computation Center operator';
+    }
+}
+
+
+#subname:before{
+    color: white;
+    content: '';
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    -webkit-filter: blur(0.8px);
+    -webkit-animation-name: subname;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}

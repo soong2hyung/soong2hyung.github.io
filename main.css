@@ -1,0 +1,169 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);/*폰트*/
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    background: url("img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+h0, h1, h2, h3, p, a, i {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+h0 {
+    margin: 0px;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: grid;
+    z-index: 1;
+}
+
+
+#title {
+    width: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+    align-content: right;
+    color: #f1f1f1;
+}
+
+#link_icon{
+    float: right;
+    margin: 20px;
+    -webkit-filter: blur(0.8px);
+}
+#link_icon:hover{
+    -webkit-filter: blur(0px);
+}
+
+#box {
+    margin-right: 15%;
+    align-content: center;
+}
+#box h1{
+    display: inline-block;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 5%;
+    -webkit-filter: blur(1px);
+    transform: scale(1.0, 1.0);
+    transition: 0.2s ease;
+}
+#box h1:hover{
+    -webkit-filter: blur(0px);
+    transform: scale(1.05, 1.05);
+    transition: 0.2s ease;
+}
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+#about{
+    margin-top: 50%;
+    height: 100%;
+}
+
+h1,h2 {
+    font-style: italic;
+}
+
+#about h3{
+    font-weight: 400;
+}
+
+#profile {
+    margin: 5%;
+    width: 300px;
+    height: 300px;
+    -webkit-filter: blur(5px);
+    transform: scale(1.0, 1.0);
+    transition: 0.2s ease;
+    z-index: 0;
+}
+
+#profile:hover {
+    -webkit-filter: blur(0px);
+    transform: scale(1.05, 1.05);
+    transition: 0.2s ease;
+    z-index: 2;
+}
+#timeline {
+    margin-top: 50%;
+    height: 100%;
+}
+
+#timeline h2{
+    -webkit-filter: blur(0.5px);
+}
+
+#timeline h2:hover{
+    -webkit-filter: blur(0px);
+    height: 100%;
+}
+
+#works{
+    margin-top: 50%;
+    height: 100%;
+}
+
+#works .mg0 {
+    margin: 0px;
+}
+#works h2 {
+    font-size: 20px;
+}
+#works p {
+    font-weight: 200;
+}
+#works .grid-container {
+    margin-top: 5%;
+
+}
+#works .text-left{
+    margin-left: 17%;
+}
+#project_img {
+    width: 320px;
+    height: 240px;
+    -webkit-filter: brightness(0.7);
+    transform: scale(1, 1);
+    transition: 0.3s ease;
+    z-index: 0;
+}
+#project_img:hover {
+    -webkit-filter: brightness(1);
+    transform: scale(1.05, 1.05);
+    transition: 0.3s ease;
+    z-index: 2;
+}
+
+#contact {
+    margin-top: 50%;
+    height: 100%;
+}
+
+#contact h3 {
+    font-weight: 400;
+    font-style: italic;
+}
